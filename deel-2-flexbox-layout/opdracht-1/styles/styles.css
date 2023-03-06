@@ -1,1 +1,26 @@
 /*Schrijf hier jouw CSS*/
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-basis: 80vw;
+}
+.aside {
+    display: flex;
+    flex-basis: 20vw;
+}
+.nav {
+    display: flex;
+    flex-basis: 20vw;
+    order: 1;
+}

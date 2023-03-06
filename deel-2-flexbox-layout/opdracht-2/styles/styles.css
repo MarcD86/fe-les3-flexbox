@@ -1,1 +1,25 @@
 /*Schrijf hier jouw CSS*/
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+
+}
+.col-2 {
+    width: 100vw;
+    height: 100vh;
+
+}
+.col-1 {
+    width: 30vw;
+    height: 100vh;
+    border: 3px solid red;
+}
+.col-2 article {
+    height: 60vh;
+}
+.col-2 header, footer {
+    border: 3px solid yellowgreen;
+    height: 20vh;
+}

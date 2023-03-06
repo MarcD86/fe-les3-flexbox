@@ -1,1 +1,18 @@
 /*Schrijf hier jouw CSS*/
+.container {
+    display: flex;
+    border: 3px solid purple;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100vw;
+    flex-basis: 0;
+    border: 2px solid green;
+}
+.col-2-main {
+    display: flex;
+    flex-direction: row;
+}

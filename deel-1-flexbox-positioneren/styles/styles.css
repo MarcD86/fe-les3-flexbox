@@ -1,1 +1,94 @@
-/*Schrijf hier jouw CSS*/
+/*-----opdracht 1--------*/
+.opdracht-1 {
+    display: flex;
+    align-items: center;
+    border-color: red;
+
+}
+.opdracht-1 ul {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px 100px;
+    flex-wrap: wrap;
+}
+/*----------opdracht 2----------*/
+.opdracht-2 {
+    display: flex;
+    align-items: center;
+    border-color: green;
+}
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.opdracht-2 li {
+    flex-basis: calc(100%/3);
+}
+/*---------opdracht 3---------*/
+.opdracht-3 {
+    display: flex;
+    border-color: yellowgreen;
+}
+.opdracht-3 ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.box1 {
+    display: flex;
+    align-self: flex-start;
+}
+.box2 {
+    display: flex;
+    align-self: center;
+}
+.box3 {
+    display: flex;
+    align-self: flex-end;
+}
+/*???? hoe krijg je de box size kleiner????????*/
+
+/*-------opdracht 4---------*/
+
+.opdracht-4 {
+    display: flex;
+    justify-content: space-between;
+    border-color: orange;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*------opdracht 5------------*/
+.opdracht-5 {
+    display: flex;
+    border: 3px solid green;
+}
+.opdracht-5 div {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    /*border: 3px solid pink;*/
+}
+.opdracht-5 .ul1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(100% / 3);
+}
+.opdracht-5 .ul2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(100% / 3);
+}
+.opdracht-5 .ul3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: calc(100% / 3);
+}
